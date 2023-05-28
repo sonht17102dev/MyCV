@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section > .container {
+  /* width: 1170px; */
+  margin: auto;
+  /* display: block; */
+
+  padding: 30px 50px;
+}
+#avatar img {
+  max-width: 50%;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: -50px;
+  left: 25%;
+  z-index: 2;
+}
+#nav-bar {
+  text-align: center;
+}
+nav.container i {
+  color: rgb(15, 135, 233);
+}
+#avatar {
+  position: relative;
+}
+#banner {
+  background-image: url("../images/banner.jpg");
+  max-width: 100%;
+  height: 600px;
+  position: relative;
+  opacity: 0.9;
+}
+
+#banner-content {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  color: white;
+  text-align: center;
+}
+.social > div {
+  display: inline-block;
+  list-style: none;
+  color: rgb(15, 135, 233);
+}
+.section-content-org span {
+  background-color: #0d6efd;
+  color: white;
+}
+.section-heading > h1 {
+  display: inline-block;
+}
+
+.hobby-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* column-gap: 5px; */
+  /* border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  border: 1px solid rgb(15, 135, 233); */
+}
+.hobby-item > h2 {
+  color: rgb(15, 135, 233);
+
+  /* position: relative; */
+}
+.hobby-item > h2 i {
+  /* position: absolute;
+  top: 25%;
+  left: 25%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* column-gap: 5px; */
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border: 1px solid rgb(15, 135, 233);
+}
+.lines span {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  vertical-align: text-top;
+}
+#certificate .container .section-img {
+  border-bottom: 1px solid #d6c08d;
+  border-right: 1px solid #d6c08d;
+  padding: 40px;
+}
+#project .container .section-img img,
+#certificate .container .section-img img {
+  max-width: 100%;
+}
+
+#certificate .container .img-left-bot {
+  border-bottom: none;
+  border-right: none;
+}
+#certificate .container .img-right-top {
+  border-right: none;
+}
+.section-item-name {
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #d6c08d;
+}
+#footer .container ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#footer .container ul li i {
+  color: rgb(15, 135, 233);
+  font-size: x-large;
+}
