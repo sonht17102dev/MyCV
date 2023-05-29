@@ -1,0 +1,21 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .my-gap {
+    gap: 30px;
+  }
+  #avatar {
+    position: static;
+    display: none;
+  }
+  #avatar img {
+    display: none;
+  }
+  #nav-bar nav .nav-bar > div {
+    font-size: 20px;
+  }
+  #job-info .container .job-item {
+    max-width: 47%;
+  }
+  .project-year {
+    width: 50%;
+  }
+}

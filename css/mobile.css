@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  #avatar {
+    position: static;
+    display: none;
+  }
+  #avatar img {
+    display: none;
+  }
+  #nav-bar nav .nav-bar > div {
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 20px;
+  }
+  #job-info .container .job-item {
+    max-width: 100%;
+  }
+  #certificate .container .img-left-top {
+    border-right: none;
+  }
+}
